@@ -1,0 +1,24 @@
+cookie:
+  expiry_days: 1
+  key: supersecretkey
+  name: app_cookie
+credentials:
+  usernames:
+    admin:
+      email: admin@example.com
+      name: Admin User
+      password: $2b$12$YobQWcyoXb3E9QSF.1w6l.anCOtXolijIO6i8hUJgaNdx.ZxdHzYK
+      role: admin
+    alice:
+      email: alice@example.com
+      name: Alice Foo
+      password: $2b$12$YobQWcyoXb3E9QSF.1w6l.anCOtXolijIO6i8hUJgaNdx.ZxdHzYK
+      role: user
+    bob:
+      email: bob@example.com
+      name: Bob Tan
+      password: $2b$12$fakehashedpasswordforbob
+      role: user
+metadata:
+  temporary_passwords:
+  - Bob Tan

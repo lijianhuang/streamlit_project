@@ -1,0 +1,7 @@
+customer_id,customer_name,contact_no,assigned_user,lead_type,priority
+C001,John Tan,91234567,alice,Enterprise,High
+C002,Alice Lim,98761234,alice,Retail,Medium
+C003,Bob Lee,91239876,bob,Retail,Low
+C004,Jane Ng,98763412,bob,Enterprise,High
+C005,Mary Goh,96543218,alice,Retail,Low
+C006,Sam Chua,90012345,bob,Enterprise,Medium
