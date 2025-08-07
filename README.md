@@ -12,43 +12,33 @@ This is a sample Streamlit-based web app designed to track outreach. It features
 5.Modular data loading and saving logic via helper modules
 
 ==========================================================================
+
 💡 Example Use Cases (philanthropy  & Beyond)
 1. Philentory: Inventory Tracking for Charities
-✅ Replace “customer” with “item”
-
-🧾 Log comments on item usage, restocking, or damage
-
-👤 Volunteers only see items they’re responsible for
-
-🗂️ Add item condition/status dropdowns to the form
+    Replace “customer” with “item”
+    Log comments on item usage, restocking, or damage
+    Volunteers only see items they’re responsible for
+    Add item condition/status dropdowns to the form
 
 2. Client Case Management (e.g., MSW / Healthcare / Social Work)
-📋 Track interactions with clients
+Track interactions with clients
+Assign staff to clients (filter by username/role)
+Use comments as session notes or visit summaries
+Donor Relationship Management
+Track contact with donors
 
-🧑‍⚕️ Assign staff to clients (filter by username/role)
-
-🧠 Use comments as session notes or visit summaries
-
-3. Donor Relationship Management
-💰 Track contact with donors
-
-✍️ Record meeting notes, pledges, preferences
-
-🕵️ Monitor access to donor info
+Record meeting notes, pledges, preferences
+Monitor access to donor info
 
 4. Volunteer Management
-📞 Track calls or meetings with volunteers
-
-✍️ Log feedback or coordination notes
-
-🎯 Show tasks or updates specific to each volunteer
+Track calls or meetings with volunteers
+Log feedback or coordination notes
+Show tasks or updates specific to each volunteer
 
 5. Internal HR / Staff Follow-Up
-📋 Managers log 1-on-1 conversations
-
-🧾 Track probation reviews or performance chats
-
-✅ Ensure secure access to staff records per role
+    Managers log 1-on-1 conversations
+    Track probation reviews or performance chats
+    Ensure secure access to staff records per role
 
 ==================================================================================
 
@@ -100,7 +90,7 @@ Role-based Access
 Users are assigned a role (e.g., admin, user) in config.yaml. Access to data is filtered accordingly.
 
 📝 Features
-✅ Secure Login
+Secure Login
 python
 Copy
 Edit
